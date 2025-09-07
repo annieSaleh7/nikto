@@ -129,7 +129,7 @@ sub nikto_outdated {
                 }
             }
         }
-        if (!$have_match) { $mark->{'components'}->{'$BI'} = 2; }
+        if (!$have_match) { $mark->{'components'}->{$BI} = 2; }
     }
     return;
 }
