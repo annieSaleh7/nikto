@@ -53,6 +53,7 @@ sub change_variables {
                 } split(/\s+/, $VARIABLES{$varname});
             }
         }
+    push(@subtests, $line);
     }
 
     return @subtests;
